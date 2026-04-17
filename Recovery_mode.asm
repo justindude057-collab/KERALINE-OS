@@ -16,7 +16,7 @@ section .data
 global _start
 _start:
 
-mov rsp, 1
+mov rsp, 0
 mov rdi, 1
 cmp rdi, rsp
 jne jmpstart

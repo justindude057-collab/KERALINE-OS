@@ -1,7 +1,7 @@
-mov bx, 0
-mov br, 1
-Cmp rdi, rsp
+mov dx, 0
+mov sp, 1
+Cmp dx, sp
 jne shit
-mov rsp, 1
-mov rdi, 1
+mov bx, 1
+mov ba, 1
 shit:

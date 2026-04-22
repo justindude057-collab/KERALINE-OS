@@ -1,1 +1,23 @@
-
+mov bp, 0
+mov sp, 1
+cmp bp, sp
+jne A
+int 0x0e
+mov al, 'K'
+int 0x10
+int 0x0e
+mov al, 'E'
+int 0x10
+int 0x0e
+mov al, 'R'
+int 0x10
+int 0x0e
+mov al, 'N'
+int 0x10
+int 0x0e
+mov al, 'E
+int 0x10
+int 0x0e
+mov al, 'L'
+int 0x10
+A:

@@ -7,6 +7,8 @@ mov ax, 0x1f00
 mov cx, 2000
 rep stosw
 
+;some shitty code going here.
+
 mov ah, 0x0e
 mov Al, 'l'
 int 0x10

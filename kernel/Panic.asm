@@ -1,6 +1,6 @@
-mov ax, 0
-mov bx, 1
-cmp ax, bx
+mov bp, 0
+mov sp, 1
+cmp sp, bp
 jne A
 
 mov ax, 0xb800

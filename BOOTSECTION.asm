@@ -17,14 +17,16 @@ org 0x7C00
 
 
 
-    mov si, select    
+    mov si, select       
     mov ah, 0x0e       
 
 
     lodsb              
     or al, al       
-    jz halt            
-    int 0x10           
+    jz halt
+    int 0x10   
+    inc al
+    int 0x10          
 
 
 

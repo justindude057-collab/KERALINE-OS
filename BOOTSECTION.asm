@@ -18,7 +18,7 @@ mov ds, ax
     jmp .title_loop   
 
 
-
+.next:
     mov si, select       
     mov ah, 0x0e       
 
@@ -26,13 +26,13 @@ mov ds, ax
 .select_loop:        
     lodsb         
     or al, al       
-    jz .next          
+    jz halt         
     int 0x10        
     jmp .select_loop 
     
 
 
-.next:
+halt:
 hlt
 nohlt:
 

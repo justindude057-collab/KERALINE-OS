@@ -32,7 +32,7 @@ mov ds, ax
     
 
 
-halt:
+.next:
 hlt
 nohlt:
 

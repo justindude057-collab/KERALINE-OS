@@ -6,17 +6,20 @@ return 0;}
 #ifndef Krnlcall_H  
 #define Krnlcall_H
 
+int diskstat = 0; //write is defualt
 
 void memcall()
 {memcall();}
 
 void intterupt(){
-intt(); 
-}
+intt();}
 
 int diskacess;
-void disk(){diskacess = 0;
-if (diskacess == 1){
-int disk = 1}}
+void disk(){
+if (diskstat == 0){
+diskwrite();}
+if (diskstat == 1){
+diskread();}
+}}
 
 #endif

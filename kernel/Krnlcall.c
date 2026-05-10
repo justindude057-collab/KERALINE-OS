@@ -2,7 +2,7 @@
 #include "memcall.h"
 #include "disk.h"
 int main(){
-return 0;}
+
 #ifndef Krnlcall_H  
 #define Krnlcall_H
 
@@ -21,5 +21,5 @@ diskwrite();}
 if (diskstat == 1){
 diskread();}
 }}
-
 #endif
+return 0;}

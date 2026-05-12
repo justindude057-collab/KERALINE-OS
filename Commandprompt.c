@@ -24,7 +24,7 @@ printf("=============\n");
 printf("ERROR 0X000000001\n");}
 void alloc(){
 int mem[i];
-printf("allocated %d\n"i);}
+printf("allocated %d\n",i);}
 while (T == 1){
 if (strcmp(name, "panic") == 0){panic();}
 if (strcmp(name, "createprocess") == 0){createprocess();}

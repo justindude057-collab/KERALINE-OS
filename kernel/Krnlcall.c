@@ -1,5 +1,5 @@
 #include "Kernel/intterupt.h"
-#include "Kernel/memcall.h"
+#include "Kernel/Memcall.h"
 #include "Kernel/diskmanage.h"
 int main(){
 

@@ -1,7 +1,7 @@
 #ifndef intterupt_H  
 #define intterupt_H
 int main(){
-void intt(){
+void int(){
 } 
   return 0;}
 #endif                

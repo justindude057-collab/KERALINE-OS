@@ -12,7 +12,7 @@ void memcall()
 {int memval = 0;
 memcall();}
 
-void intterupt(){
+void krnlintterupt(){
 intterupt();}
 
 int diskacess;

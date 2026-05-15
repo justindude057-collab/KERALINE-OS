@@ -1,4 +1,4 @@
-#include "Krnlcall,h"
+#include "Krnlcall.h"
 #include "memcall.h"
 pidcall(); // assign pid
 memcall(); // declare memory allcation.

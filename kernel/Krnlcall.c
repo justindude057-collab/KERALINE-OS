@@ -1,10 +1,10 @@
+#ifndef Krnlcall_H  
+#define Krnlcall_H
+
 #include "Kernel/intterupt.h"
 #include "Kernel/Memcall.h"
 #include "Kernel/diskmanage.h"
 int main(){
-
-#ifndef Krnlcall_H  
-#define Krnlcall_H
 
 int diskstat = 0; //write is defualt
 

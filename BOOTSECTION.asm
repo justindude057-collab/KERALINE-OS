@@ -3,9 +3,27 @@ org 0x7C00
 
 ;i hate evey fucking bit of this asm 
 
-xor ax, ax
-mov ds, ax
+    mov si, beta     
+    mov ah, 0x0e       
 
+mov al, 0x0D
+int 0x10
+mov al, 0x0A
+int 0x10
+
+.beta_loop:        
+    lodsb         
+    or al, al       
+    jz .beta         
+    int 0x10        
+    jmp .beta_loop 
+
+.beta:
+
+mov al, 0x0D
+int 0x10
+mov al, 0x0A
+int 0x10
 
    mov si, title       
     mov ah, 0x0e  
@@ -110,6 +128,7 @@ int 0x10
 halt:
 hlt
 nohlt:
+beta db "BETA BUILD. DO NOT SHARE IMAGES OF A BETA BUILD..", 0
 title db "Kernaline os bootloader.", 0
 select db "select a drive..", 0
 line db "================", 0

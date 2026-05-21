@@ -36,13 +36,13 @@ rm Panic.c
 rm Process_scheduler.c
 
 
-mv Diskmanage.bin /kernel
-mv Interupt.bin /kernel
-mv Krnlcall.bin /kernel
-mv Memcall.bin /kernel
-mv Panic.bin /kernel
-mv Process_scheduler.bin /kernel
-mv VGAcontrol.bin /kernel
+mv Diskmanage.bin /root/kernel
+mv Interupt.bin /root/kernel
+mv Krnlcall.bin /root/kernel
+mv Memcall.bin /root/kernel
+mv Panic.bin /root/kernel
+mv Process_scheduler.bin /root/kernel
+mv VGAcontrol.bin /root/kernel
 echo =====================================
 echo sucessfully completed installation.
 echo =====================================

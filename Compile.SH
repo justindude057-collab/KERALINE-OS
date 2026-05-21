@@ -27,7 +27,7 @@ echo sucessfully compiled Kernaline os code.
 echo =====================================
 echo now deleting unneeded os files....
 rm BOOTSECTION.asm
-rm Commandprmot.c
+rm Commandprompt.c
 rm Diskmanage.c
 rm Interrupt.c
 rm Krnlcall.c

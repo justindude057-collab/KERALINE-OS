@@ -1,3 +1,3 @@
-#include "kernel/Diskmanage.h"
+#include "Diskmanage.h"
 void diskwrite(){}
 void diskread(){}

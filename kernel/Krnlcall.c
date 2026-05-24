@@ -8,7 +8,7 @@ int diskstat = 0; //write is defualt
 
 void memcall()
 {int memval = 0;
-memcall();}
+Memcall();}
 
 void krnlintterupt(){
 intterupt();}

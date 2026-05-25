@@ -2,10 +2,10 @@
 int main(){
 Memcall();
 int pid = 0;
-void PID()
-{pid ++;}
-void PIDRET()
-{pid --;}
+void PID(){
+pid ++;}
+void PIDRET(){
+pid --;}
 return 0;}
 
  // so compile doesnt scream that theres no defined main.

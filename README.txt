@@ -11,6 +11,6 @@ compile the os code.
 First install the Installer
 with git.
 The code for the installer is 
-git clone https://github.com/justindude057-collab/Kerinstall.git
+git clone https://github.com/justinjames1/Kerinstall.git
 then do mv Kerinstall/Kerinstall.sh /root/
 then do sh Kerinstall.sh

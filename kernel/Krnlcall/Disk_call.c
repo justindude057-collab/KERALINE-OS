@@ -1,8 +1,10 @@
 #include "Diskmanage.h"
 int main()
 {
-if (disks
-
+if (diskstat == 0)
+{}
+if (diskstat > 0)
+{}
 
   
 }

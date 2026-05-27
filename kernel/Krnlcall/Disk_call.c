@@ -2,9 +2,6 @@
 int main()
 {
 if (diskstat == 0)
-{}
+{diskread();}
 if (diskstat > 0)
-{}
-
-  
-}
+{diskwrite();}}

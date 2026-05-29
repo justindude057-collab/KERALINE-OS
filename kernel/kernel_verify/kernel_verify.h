@@ -1,1 +1,1 @@
-extern int kernel_verify = 50;
+extern int kernel_verify;

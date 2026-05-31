@@ -1,4 +1,3 @@
-fn main(){
-let error = "ERROR HAS OCCURED";
-println!("{}", error);
+fn main()
+println!("Error");
 }

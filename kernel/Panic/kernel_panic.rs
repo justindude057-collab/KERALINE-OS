@@ -1,3 +1,3 @@
-fn main()
-println!("Error");
+fn main(){
+print!("Error");
 }
